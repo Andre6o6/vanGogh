@@ -1,0 +1,85 @@
+body {
+    font-size: 20px;
+
+	font-family: Times New Roman;
+    color: #221;
+}
+
+header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+	position: fixed;
+	
+	z-index: 10;	
+	
+ }
+
+article header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	
+	background: url("images/munk.jpg") 0% 0% / cover no-repeat;
+	z-index: 0;	
+}
+ 
+#sign {
+	position: relative;
+    top: 20%;
+    left: 0;
+	width: 100%;
+		
+	text-align: center;	
+	z-index: 1;	
+}
+
+#sign h1 {
+	font-size: 4em;
+	
+    color: #ffc;
+    background-color: #d84;
+			
+	border-style: solid;
+	border-color: yellow;
+	border-width: 10px 0 10px 0;
+	
+	margin: 0 0 0 0;	
+}
+
+#sign h2 {
+	text-transform: uppercase;
+	text-shadow: -2px 2px 2px #ddc;
+}
+
+ 
+article #content {
+	position: absolute;
+    top: 100%;
+	
+	padding: 0 5% 0 5%;
+}
+
+.container {
+	background-color: #d84;
+	opacity: 0.7;
+}
+.container h4 {
+	margin: 0 0 0 0;
+}
+
+button { padding: 6px 10px; color: rgb(255, 255, 255); background: rgba(0, 0, 0, 0.5); border: 1px solid rgb(40, 40, 40);}
+button:hover, button.hover { background: rgba(0, 0, 0, 0.4); }
+button:active, button.active { background: rgba(0, 0, 0, 0.6); }
+
+ul#user {position: fixed; list-style: none; padding: 2px; margin: 0; float: left; font-size: 1.2em; width: 100%; background-color: #d84; }
+ul#user li { float: left; margin: 0; padding: 0 2px 0 0; position: relative; }
+ul#user li.right-al {float: right; }
+ul#user li button { float: left; }
+
+article#content-user {position: absolute; top: 50px; left: 2%; width: 96%;}
+article#content-user section { position: relative; background-color: #d84; }
+ul#img-table, ul.img-row  { list-style: none; }

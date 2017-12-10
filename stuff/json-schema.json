@@ -1,0 +1,38 @@
+{
+	"$schema": "http://json-schema.org/draft-06/schema#",
+	"title": "User",
+    "description": "A user on the website",
+    "type": "object",
+	"properties": {
+        "id": {
+            "type": "integer"
+        },
+		"login": {
+			"type": "string"
+		},
+		"email": {
+			"type": "string" 
+		},
+		"history": {
+			"description": "",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"source": {
+						"type": "string"
+					},
+					"preview": {
+						"type": "string"
+					}
+				},
+				"required": ["name", "source", "preview"]
+			},
+			"uniqueItems": true
+		}
+    },
+    "required": ["id", "login", "email", "history"]
+}

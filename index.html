@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>van Gogh</title>
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<script type="text/javascript" src="time-func.js"></script>
+	
+	<!-- Auth0 -->
+	<script type="text/javascript" src="auth0.js""></script>
+	<script type="text/javascript" src="app.js"></script>
+	
+</head>
+
+<body>
+	<header>
+		
+		<ul id="user">
+			<li><button id = "btn-login">Log in</button></li>
+			<li><button id = "btn-logout">Log out</button></li>
+			
+			<li> <div class="container" id="home-view"> <h4></h4> </div> </li>	
+			
+			<li class="right-al"><a href="user.html"><button id="btn-profile">Profile</button></a></li>
+			<li class="right-al"><span id="user-name">User</span></li>					
+		</ul>
+		
+		
+		
+	</header>
+	
+	<article>
+		<header>
+			<div id = "sign">
+			
+			<h1>van Gogh</h1>
+			<h2>Simple graphics editor</h2>			
+			<a href="editor/index.html"><button>Draw</button></a>
+			
+			</div>
+		</header>
+
+		
+		<div id = "content">
+		
+		<section id = "description">
+			<h2>Description</h2>
+			<p>
+			This is going to be a graphics editor, working on HTML and JS. Well, that's it. For now.
+
+			<h2>Latest news</h2>
+			<p>
+			(2017.12.09) Unit-tests via Jasmine: <a href = "jasmine-test/SpecRunner.html">here</a>.
+			</p>
+			<p>
+			(2017.12.07) Function : <button id = "btn-time">Get Time</button><br>
+			Current date-time: <span id = "time-from-func"></span>.<br>
+			Sequence diagram: <a href = "stuff/uml.png">this</a>.
+			</p>
+			<p>
+			(2017.11.26) Added authorization via <a href = "https://auth0.com">Auth0</a>.
+			</p>
+			<p>
+			(2017.10.29) Added <a href="stuff/json-schema.json">JSON Schema</a>.<br>
+			Also started working on API in <a href="stuff/swagger.json">Swagger</a>.
+			</p>
+			<p>
+			(2017.10.21) Added <a href="stuff/schema.xml">XML Schema</a>.	
+			</p>
+			<p>
+			(2017.10.08) Added some xml's and staff. Links:
+			<ul>
+				<li>
+				<a href="stuff/node-based.xml">Node-based XML</a>
+				</li>
+				<li>
+				<a href="stuff/attribute-based.xml">Attribute-based XML</a>
+				</li>
+				<li>
+				<a href="stuff/data.json">JSON</a>
+				</li>
+			</ul>
+			</p>
+		</section>
+
+		</div>
+		
+		<footer>
+
+		</footer>
+	</article>
+	
+
+</body>
+</html>

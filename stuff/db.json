@@ -1,0 +1,75 @@
+{
+	"users": [
+		{
+		  "id": 0,
+		  "info": {
+			"login": "PoPyGay",
+			"email": "ya@mail.ru",
+			"password": "BjkHkbkbn",
+			"userStatus": 0
+		  },
+		  "history": {
+			"content": [
+			  {
+				"id": 0,
+				"name": "Foto001",
+				"source": "https://upload.wikimedia.org/wikipedia/ru/2/24/Lenna.png",
+				"preview": "https://upload.wikimedia.org/wikipedia/ru/2/24/Lenna.png"
+			  },
+			  {
+				"id": 1,
+				"name": "Some memes",
+				"source": "http://img-fotki.yandex.ru/get/9799/163146787.408/0_fb31f_a8683f61_XL.jpg",
+				"preview": "http://img-fotki.yandex.ru/get/9799/163146787.408/0_fb31f_a8683f61_XL.jpg"
+			  }
+			]
+		  }
+		},
+		
+		{
+		  "id": 1,
+		  "info": {
+			"login": "Walid Feghali",
+			"email": "wf@gmail.com",
+			"password": "HlkoMtGkbkbn",
+			"userStatus": 0
+		  },
+		  "history": {
+			"content": [
+			  {
+				"id": 2,
+				"name": "At The Stream Of Light",
+				"source": "https://pre00.deviantart.net/76d6/th/pre/i/2017/271/7/3/at_the_stream_of_light___painting_walkthrough_by_soldatnordsken-dboujwd.jpg",
+				"preview": "https://pre00.deviantart.net/76d6/th/pre/i/2017/271/7/3/at_the_stream_of_light___painting_walkthrough_by_soldatnordsken-dboujwd.jpg"
+			  }
+			]
+		  }
+		},
+		
+		{
+		  "id": 2,
+		  "info": {
+			"login": "Artist-kun",
+			"email": "ak@gmail.com",
+			"password": "aaaAaoMtGkbp",
+			"userStatus": 0
+		  },
+		  "history": {
+			"content": [
+			  {
+				"id": 3,
+				"name": "Rose's roze",
+				"source": "https://pp.userapi.com/c636424/v636424318/3441f/BMX5jP8gT8c.jpg",
+				"preview": "https://pp.userapi.com/c636424/v636424318/3441f/BMX5jP8gT8c.jpg"
+			  },
+			  {
+				"id": 4,
+				"name": "With guitar",
+				"source": "https://pp.userapi.com/c637816/v637816318/b496/Ldami__XK5s.jpg",
+				"preview": "https://pp.userapi.com/c637816/v637816318/b496/Ldami__XK5s.jpg"
+			  }
+			]
+		  }
+		}
+	]
+}

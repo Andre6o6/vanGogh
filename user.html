@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>van Gogh - user profile</title>
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- Auth0 -->
+	<script type="text/javascript" src="auth0.js""></script>
+	<script type="text/javascript" src="app-user.js"></script>
+	
+</head>
+
+<body>
+	<header>	
+		<ul id="user">
+			<li><a href="." ><button>HOME</button></a></li>
+			<li class="right-al"><button id="btn-settings">Settings</button></li>
+			<li class="right-al"><span id="user-name">User</span></li>					
+		</ul>		
+		
+	</header>
+	
+	<article id="content-user">
+		
+		<section id="user-info">
+			<p>
+			User: <span id="username"></span>
+			</p>
+			<p>
+			Nickname: <span id="email"></span>
+			</p>
+			<!-- <div id="additional"></div> -->
+		</section>
+		
+		<section id="img-history">
+			<p>Images:</p>
+			<ul id="img-table">
+				<li>
+					<ul class="img-row">
+						<li>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		
+	</article>
+	
+
+</body>
+</html>
